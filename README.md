@@ -16,12 +16,15 @@ adding sorting, paging and filtering abilities to plain HTML tables with minimal
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/datatables-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/datatables-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/datatables-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/datatables-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/datatables/badges/version.svg)](https://anaconda.org/conda-forge/datatables)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/datatables/badges/downloads.svg)](https://anaconda.org/conda-forge/datatables)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-datatables-green.svg)](https://anaconda.org/conda-forge/datatables) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/datatables.svg)](https://anaconda.org/conda-forge/datatables) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/datatables.svg)](https://anaconda.org/conda-forge/datatables) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/datatables.svg)](https://anaconda.org/conda-forge/datatables) |
 
 Installing datatables
 =====================
