@@ -1,6 +1,6 @@
 {% set name = "datatables" %}
-{% set version = "1.10.16" %}
-{% set sha256 = "3f4e44350bb80b6f4afa5d2841ff14fc6aabe176b6e51e3c3fe0324b040ebf73" %}
+{% set version = "1.10.17" %}
+{% set sha256 = "b154056632e75a494c1947ed92902d6638f073b68ac67ab4bd930635ab58e3d7" %}
 
 package:
   name: {{ name|lower }}
