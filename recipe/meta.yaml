@@ -1,6 +1,6 @@
 {% set name = "datatables" %}
-{% set version = "1.10.19" %}
-{% set sha256 = "46b2ed352cc119e0bb0442ea153db3ce2252e5a34fe20e5211a0de909ce7558e" %}
+{% set version = "2.3.7" %}
+{% set sha256 = "e57e017b77e56e3c5e502825123750159d228f756608520b5ceffb5bf2477687" %}
 
 package:
   name: {{ name|lower }}
@@ -20,13 +20,13 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g datatables
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/DataTables/DataTables
