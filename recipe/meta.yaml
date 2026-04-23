@@ -1,6 +1,6 @@
 {% set name = "datatables" %}
-{% set version = "1.10.19" %}
-{% set sha256 = "46b2ed352cc119e0bb0442ea153db3ce2252e5a34fe20e5211a0de909ce7558e" %}
+{% set version = "1.10.21" %}
+{% set sha256 = "94cfdac4ade2eb693be89b0f1ed9b745163e601caaa50fab695b2d6eb57074cd" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,20 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g datatables
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/DataTables/DataTables
   license: MIT
   license_family: MIT
   license_file: license.txt
-  summary: 'Tables plug-in for jQuery'
+  summary: Tables plug-in for jQuery
   description: |
     DataTables is a table enhancing plug-in for the jQuery Javascript library, 
     adding sorting, paging and filtering abilities to plain HTML tables with minimal effort.  
